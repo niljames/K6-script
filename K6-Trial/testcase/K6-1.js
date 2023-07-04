@@ -6,7 +6,8 @@ import * as sub_mul from '../cm/cm2/cm.js';
 export const options = {
     tags: {
         API_Type: __ENV.Type,
-        TimeStamp: String(Date.now())
+        TimeStamp: String(Date.now()),
+        A: 'A'
     }
 };
 
